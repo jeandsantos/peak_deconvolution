@@ -85,7 +85,10 @@ shinyUI(
                ("2. Select whether the uploaded file has header and the type of separator and quotes used"),br(),
                ("3. Click on 'Run Analysis' for a preview of the spectre"),br(),
                ("4. Click on 'Perform Deconvolution' for running the deconvolution."),br(),br(),
-               ("The analysis may take a few moments based on the length of the spectre and the potential number of compoenents."),br()
+               ("The analysis may take a few moments based on the length of the spectre and the potential number of components."),br(),
+               ("You can test the app by downloading this sample file "),
+               tags$a(href = "https://raw.githubusercontent.com/jeandsantos/peak_deconvolution/main/data/example_file_with_headers.csv", target = "_blank", "example_file_with_headers.csv"),br(),
+               br()
              ),
              tabPanel(
                title = "About",
