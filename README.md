@@ -2,6 +2,8 @@
 
 [**Peak Deconvolution**](https://jeandsantos.shinyapps.io/peak_deconvolution/) is a Shiny app that performs the deconvolution of spectral data into its main components/peaks.
 
+You can access the app through this link: [https://jeandsantos.shinyapps.io/peak_deconvolution/](https://jeandsantos.shinyapps.io/peak_deconvolution/)
+
 ![](www/spectra.png)
 
 ***
@@ -14,9 +16,10 @@ You can run an analysis by:
 3. Click on 'Run Analysis' for a preview of the spectre
 4. Click on 'Perform Deconvolution' for running the deconvolution
 
+The analysis may take a few moments based on the length of the spectre and the potential number of components.
+
 ![](www/peak_deconvolution.gif)
 
-The analysis may take a few moments based on the length of the spectre and the potential number of components.
 
 ***
 ## Testing the App
